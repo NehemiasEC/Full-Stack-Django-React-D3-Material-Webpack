@@ -4,7 +4,9 @@
   "description": "Django React D3 MaterialUI Webpack",
   "main": "index.js",
   "scripts": {
-    "start": "webpack"
+    "start": "rm -rf dist & webpack  --mode development",
+    "dev": "npm run start & webpack-dev-server  --hot --inline --open",
+    "server": "nodemon src/server/index.js"
   },
   "author": "NehemiasEC",
   "license": "ISC",
@@ -34,6 +36,8 @@
     "webpack-livereload-plugin": "^2.1.1"
   },
   "dependencies": {
+    "@material-ui/core": "^3.0.2",
+    "@material-ui/icons": "^3.0.1",
     "d3": "^5.7.0",
     "express": "^4.16.3",
     "react": "^16.4.2",
