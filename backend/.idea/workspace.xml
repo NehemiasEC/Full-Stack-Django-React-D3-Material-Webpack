@@ -2,52 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fee8c25-32ad-47dd-8b4c-84ba0119c075" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/decimal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/exporter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/exportes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/forms/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/i18n.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/invoice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/metrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/middleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/models/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/models/event.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/notifications.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/payment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/pdf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/plugins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/reldate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/shredder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/templates/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/ticketoutput.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/validators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/base/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/celery_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/control/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/helpers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/locale/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/multidomain/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/plugins/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/presale/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/sentry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/static/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/testutils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tickets/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/base/models/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/base/models/checkin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/base/models/invoices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/base/models/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/base/models/notifications.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/base/models/orders.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/base/models/organizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/base/models/tax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/base/models/vouchers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/base/models/waitinglist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tickets/helpers/json.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tickets/base/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/tickets/base/models/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,76 +36,38 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="33" />
+          <entry key="py" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="33" />
+          <entry key="Python" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2146" />
+          <entry key="py" value="2397" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2146" />
+          <entry key="Python" value="2397" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets/base/metrics.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets/base/middleware.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets/base/notifications.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets/base/payment.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets/base/pdf.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets/base/plugins.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets/base/settings.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets/base/shredder.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tickets/base/ticketoutput.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tickets/base/validators.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/tickets/base/models/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-851">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -161,7 +91,6 @@
         <option value="$PROJECT_DIR$/tickets/base/signals.py" />
         <option value="$PROJECT_DIR$/tickets/base/models/event.py" />
         <option value="$PROJECT_DIR$/tickets/base/models/base.py" />
-        <option value="$PROJECT_DIR$/tickets/helpers/json.py" />
         <option value="$PROJECT_DIR$/tickets/base/reldate.py" />
         <option value="$PROJECT_DIR$/tickets/urls.py" />
         <option value="$PROJECT_DIR$/tickets/settings.py" />
@@ -187,6 +116,19 @@
         <option value="$PROJECT_DIR$/tickets/base/shredder.py" />
         <option value="$PROJECT_DIR$/tickets/base/ticketoutput.py" />
         <option value="$PROJECT_DIR$/tickets/base/validators.py" />
+        <option value="$PROJECT_DIR$/tickets/base/models/auth.py" />
+        <option value="$PROJECT_DIR$/tickets/base/models/checkin.py" />
+        <option value="$PROJECT_DIR$/tickets/base/models/invoices.py" />
+        <option value="$PROJECT_DIR$/tickets/base/models/itrems.py" />
+        <option value="$PROJECT_DIR$/tickets/base/models/items.py" />
+        <option value="$PROJECT_DIR$/tickets/base/models/notifications.py" />
+        <option value="$PROJECT_DIR$/tickets/base/models/orders.py" />
+        <option value="$PROJECT_DIR$/tickets/base/models/organizer.py" />
+        <option value="$PROJECT_DIR$/tickets/base/models/tax.py" />
+        <option value="$PROJECT_DIR$/tickets/base/models/vouchers.py" />
+        <option value="$PROJECT_DIR$/tickets/base/models/waitinglist.py" />
+        <option value="$PROJECT_DIR$/tickets/base/models/models.py" />
+        <option value="$PROJECT_DIR$/tickets/helpers/json.py" />
       </list>
     </option>
   </component>
@@ -196,7 +138,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="960" />
     <option name="y" value="25" />
     <option name="width" value="960" />
@@ -225,6 +167,13 @@
               <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="tickets" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="tickets" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,7 +246,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="25" width="960" height="1055" extended-state="0" />
+    <frame x="960" y="25" width="960" height="1055" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -371,30 +320,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tickets/base/models/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tickets/base/models/event.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickets/base/models/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -482,6 +411,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tickets/base/validators.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/base/models/auth.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/base/models/checkin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/base/models/itrems.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/base/models/invoices.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/base/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/helpers/json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <marker date="1536286416549" expanded="true" signature="141:146" ph="..." />
+            <marker date="1536286416549" expanded="true" signature="337:342" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/base/models/waitinglist.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/base/models/vouchers.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/base/models/tax.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/base/models/organizer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/base/models/orders.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/base/models/notifications.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/base/models/items.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickets/base/models/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-851">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
